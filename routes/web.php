@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('datasiswa', 'DatasiswaController');
+Route::resource('perpus', 'PerpusController');
