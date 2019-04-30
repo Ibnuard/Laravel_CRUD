@@ -120,6 +120,6 @@ class PerpusController extends Controller
      $perpus = Perpus::find($id);
      $perpus->delete();
 
-     return redirect('/perpus')->with('success', 'Data berhasil di Hapus');
+     return redirect('/perpus')->with('success', 'Data Telah berhasil di Hapus');
     }
 }
