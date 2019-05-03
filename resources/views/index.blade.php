@@ -11,7 +11,7 @@
     <div class="alert alert-success">
       {{ session()->get('success') }}  
     </div><br />
-  @endif
+  @endif 
   <table class="table table-striped">
     <thead>
         <tr>
